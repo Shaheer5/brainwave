@@ -10,7 +10,7 @@ const Hero = () => {
   const parallaxRef = useRef(null);
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[8rem] -mt-[5.25rem]"
       crosses
       crossesOffset={`lg:translate-y-[5.25rem]`}
       customPaddings
@@ -19,8 +19,8 @@ const Hero = () => {
       <div className='container relative'>
         <div className='relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:my-20 lg:mb-[6rem]'>
           <h1 className='h1 mb-6'>
-            Explore the Possibilities of AI Chatting with
-            <span className="inline-block relative ml-2.5">
+            Explore the Possibilities of AI Chatting with{` `}
+            <span className="inline-block relative">
               Brainwave
               <img
                 src={curve}
@@ -52,10 +52,12 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
+            <Gradient />
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img src={heroBackground} className='w-full' width={1440} height={1800} alt="hero" />
           </div>
+          <BackgroundCircles />
         </div>
       </div>
     </Section>
