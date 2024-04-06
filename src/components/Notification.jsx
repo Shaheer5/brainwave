@@ -1,6 +1,6 @@
-import React from 'react'
-import { notificationImages } from '../constants'
-import { notification1 } from '../assets'
+import React from 'react';
+import { notificationImages } from '../constants';
+import { notification1 } from '../assets';
 
 const Notification = ({ className, title }) => {
   return (
@@ -23,7 +23,7 @@ const Notification = ({ className, title }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Notification
+export default Notification;

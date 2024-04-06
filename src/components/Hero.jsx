@@ -73,7 +73,7 @@ const Hero = () => {
       </div>
       <BottomLine />
     </Section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

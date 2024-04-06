@@ -1,5 +1,5 @@
-import React from 'react'
-import { companyLogos } from '../constants'
+import React from 'react';
+import { companyLogos } from '../constants';
 
 export const CompanyLogos = ({ className }) => {
   return (
@@ -13,5 +13,5 @@ export const CompanyLogos = ({ className }) => {
         ))}
       </ul>
     </div>
-  )
-}
+  );
+};
